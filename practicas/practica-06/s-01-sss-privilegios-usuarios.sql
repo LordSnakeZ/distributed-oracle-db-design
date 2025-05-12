@@ -1,0 +1,8 @@
+CONNECT sys/302405@sssbdd_s1 as sysdba;
+
+GRANT CREATE DATABASE LINK, CREATE PROCEDURE TO editorial_bdd;
+
+CONNECT sys/302405@sssbdd_s2 as sysdba;
+
+GRANT CREATE DATABASE LINK, CREATE PROCEDURE TO editorial_bdd;
+
